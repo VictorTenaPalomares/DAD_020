@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.ejerciciosTema01.CuadradoDiferencia"/>
+    <fullyQualifiedTypeName name="com.ejerciciosTema01.CuadradoSuma"/>
+    <fullyQualifiedTypeName name="com.ejerciciosTema01.EjercicioBasico02"/>
+    <fullyQualifiedTypeName name="tema2_variables.SerHumano"/>
+    <fullyQualifiedTypeName name="tema2_variables.ResolverEcuacionesSegundoGrado"/>
+    <fullyQualifiedTypeName name="tema2_variables.Ejercicio2Sintaxis"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="tema3_clase_String.EjercicioString4"/>
+    <fullyQualifiedTypeName name="java.lang.StrictMath"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="tema3_clase_String.Volumenes"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+</qualifiedTypeNameHistroy>

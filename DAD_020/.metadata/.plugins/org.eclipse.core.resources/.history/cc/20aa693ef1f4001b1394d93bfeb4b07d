@@ -1,0 +1,26 @@
+package tema3_clase_String;
+
+public class EjercicioString1 {
+public static void main(String[] args) {
+	
+	String frase="En mi próxima vida, creeré en la reencarnación"; 
+	
+	System.out.println(frase.length());
+	System.out.println(frase.charAt(7));
+	System.out.println(frase.substring(20));
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+}

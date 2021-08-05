@@ -1,0 +1,12 @@
+package com.ejerciciosTema01;
+
+public class EjercicioBasico01 {
+
+	public static void main(String[] args) {
+		
+		CuadradoSuma cuadrado=new CuadradoSuma(3,2);
+
+	}
+
+}
+

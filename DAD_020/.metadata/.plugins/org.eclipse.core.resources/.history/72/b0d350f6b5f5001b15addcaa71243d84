@@ -1,0 +1,46 @@
+package tema3_clase_String;
+
+import java.util.Scanner;
+
+/**/
+
+public class Volumenes {
+
+	final double PI = Math.PI;
+
+	public static void main(String[] args) {
+		
+		Volumenes vol= new Volumenes();
+		
+		Scanner entrada= new Scanner(System.in);
+		
+		double alturaCilindro, radioCilindro, radioEsfera;
+		
+		System.out.println("Introduce la altura del cilindro");
+		alturaCilindro=entrada.nextDouble();
+		
+		System.out.println("Introduce el radio del cilindro");
+		radioCilindro=entrada.nextDouble();
+		
+		syso
+		radioEsfera=entrada.nextDouble();
+		
+		
+
+	}
+
+	double calcularVolumenCilindro(double altura, double radio) {
+
+		double formulaCilindro = PI * radio * radio * altura;
+
+		return formulaCilindro;
+	}
+
+	double calcularVolumenEsfera(double radio) {
+
+		double formulaEsfera = (4.0 / 3) * PI * radio * radio * radio;
+
+		return formulaEsfera;
+	}
+
+}
