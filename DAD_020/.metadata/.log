@@ -13800,3 +13800,29 @@ Caused by: java.util.concurrent.TimeoutException
 	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
 	at com.codota.common.completion.CompletionGetterHelper.getCompletionsInner(CompletionGetterHelper.java:88)
 	... 34 more
+
+!ENTRY org.eclipse.egit.core 4 0 2021-08-16 10:50:18.259
+!MESSAGE An exception occurred during push on URI https://github.com/VictorTenaPalomares/DAD_020.git: https://github.com/VictorTenaPalomares/DAD_020.git: git-receive-pack not permitted on 'https://github.com/VictorTenaPalomares/DAD_020.git/'
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/VictorTenaPalomares/DAD_020.git: git-receive-pack not permitted on 'https://github.com/VictorTenaPalomares/DAD_020.git/'
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:692)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:127)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1384)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:210)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.egit.core 4 0 2021-08-16 10:50:37.057
+!MESSAGE An exception occurred during push on URI https://github.com/VictorTenaPalomares/DAD_020.git: https://github.com/VictorTenaPalomares/DAD_020.git: git-receive-pack not permitted on 'https://github.com/VictorTenaPalomares/DAD_020.git/'
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/VictorTenaPalomares/DAD_020.git: git-receive-pack not permitted on 'https://github.com/VictorTenaPalomares/DAD_020.git/'
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:692)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:127)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1384)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:210)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
